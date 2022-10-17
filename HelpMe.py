@@ -26,7 +26,7 @@ for i in range(len(s)): #мне нужен физический смысл ка�
 #print(a)
 bin_list = []
 M = len(a)
-while !is_degree_two(M):
+while not is_degree_two(M):
     M+=1; #доходит до 2**i
 inform_weight = log(M, 2)
 #у нас есть i
